@@ -1,11 +1,9 @@
 # MiniBank - Advanced Object-Oriented Programming (CEUE203)
 
-**Institution**: Charotar University of Science and Technology (CHARUSAT)  
-**Faculty**: Faculty of Technology and Engineering (FTE)  
 **Subject**: Object-Oriented Programming (CEUE203)  
 **Student**: Dhruv Bhoi  
-**ID / Roll No**: D26CE154  
-**Semester**: 3rd Semester, 2026-27 (ODD)  
+**ID**: D26CE154  
+**Semester**: 3rd Semester, 2026-27  
 
 ---
 
@@ -106,19 +104,3 @@ java -cp bin minibank.app.MiniBankTests
 | **14** | **Capstone Assembly & Testing** | `BankService` layered coordinator, interactive CLI driving all features, automatic persistence, and test suite. |
 
 ---
-
-## 🧪 Test Suite Results
-```text
-====================================================
-      RUNNING MINIBANK CAPSTONE TEST SUITE          
-====================================================
-[PASS] testDepositIncreasesBalance
-[PASS] testWithdrawalOverLimitThrowsException (Shortfall: 9971999)
-[PASS] testNegativeDepositThrowsException (Deposit amount must be > 0: -500)
-Executing thread-pool managed batch of 10 concurrent transactions...
-[PASS] testConcurrentBatchExecution (Deadlock-free execution)
-
-====================================================
-MINIPROJECT TEST SUMMARY: 4 / 4 TESTS PASSED (100%)
-====================================================
-```
