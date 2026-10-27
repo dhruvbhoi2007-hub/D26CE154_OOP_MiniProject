@@ -1,0 +1,14 @@
+# Bytecode artifacts
+*.class
+bin/
+
+# IDE / Editor artifacts
+.vscode/
+.idea/
+*.iml
+*.swp
+*~
+
+# OS artifacts
+Thumbs.db
+.DS_Store
