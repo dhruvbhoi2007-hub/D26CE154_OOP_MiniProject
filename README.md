@@ -1,9 +1,17 @@
 # MiniBank - Advanced Object-Oriented Programming (CEUE203)
-
+   
+**Institution**: Charotar University of Science and Technology (CHARUSAT)  
+**Faculty**: Faculty of Technology and Engineering (FTE)  
+**Department**: Department of Computer Engineering  
 **Subject**: Object-Oriented Programming (CEUE203)  
 **Student**: Dhruv Bhoi  
 **ID**: D26CE154  
 **Semester**: 3rd Semester, 2026-27  
+
+📄 **Mini-Project Report Documents**:
+- 📕 [Mini-Project Evaluation Report (PDF)](./D26CE154_MiniProject_Report.pdf)
+- 📘 [Mini-Project Evaluation Report (Word DOCX)](./D26CE154_MiniProject_Report.docx)
+- 📝 [Mini-Project Report (Markdown)](./MINIPROJECT_REPORT.md)
 
 ---
 
@@ -104,3 +112,29 @@ java -cp bin minibank.app.MiniBankTests
 | **14** | **Capstone Assembly & Testing** | `BankService` layered coordinator, interactive CLI driving all features, automatic persistence, and test suite. |
 
 ---
+
+## 🧪 Test Suite Results
+```text
+====================================================
+      RUNNING MINIBANK CAPSTONE TEST SUITE          
+====================================================
+Restored 3 accounts from persistent storage.
+[PASS] testDepositIncreasesBalance
+[PASS] testWithdrawalOverLimitThrowsException (Shortfall: 9971499)
+[PASS] testNegativeDepositThrowsException (Deposit amount must be > 0: -500)
+Executing thread-pool managed batch of 10 concurrent transactions...
+[PASS] testConcurrentBatchExecution (Deadlock-free execution)
+
+====================================================
+MINIPROJECT TEST SUMMARY: 4 / 4 TESTS PASSED (100%)
+====================================================
+```
+
+---
+
+## 📋 Evaluation & Submission Information
+- **Google Classroom Assignment**: Upload [`D26CE154_MiniProject_Report.docx`](./D26CE154_MiniProject_Report.docx) or [`D26CE154_MiniProject_Report.pdf`](./D26CE154_MiniProject_Report.pdf)
+- **Google Form Link**: [https://forms.gle/qh3yMuouwKyGLdwL6](https://forms.gle/qh3yMuouwKyGLdwL6)
+- **Project ZIP**: `D26CE154_MiniProject.zip`
+- **Git Repository**: [https://github.com/dhruvbhoi2007-hub/D26CE154_OOP_MiniProject.git](https://github.com/dhruvbhoi2007-hub/D26CE154_OOP_MiniProject.git)
+- **Deadline**: October 28, 2026 by 23:59 IST
